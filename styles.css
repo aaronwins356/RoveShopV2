@@ -1,0 +1,236 @@
+/*
+  ROVE storefront styles
+  Inspired by premium eyewear brands, this stylesheet uses a dark colour
+  palette with high contrast typography and ample spacing. Feel free to
+  customise colours, fonts and spacing to suit your own brand identity.
+*/
+
+/* Reset some basic elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #e5e7eb;
+  background-color: #0e101a;
+  line-height: 1.5;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0ea5e9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #0a0d16;
+  border-bottom: 1px solid #1f2937;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #38bdf8;
+}
+
+.nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.cart-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+  fill: #e5e7eb;
+  margin-right: 0.25rem;
+}
+
+.cart-count {
+  font-size: 0.9rem;
+  background-color: #f97316;
+  color: #0e101a;
+  padding: 0 0.4rem;
+  border-radius: 9999px;
+}
+
+/* Hero section */
+.hero {
+  background-image: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #f1f5f9;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #94a3b8;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+  color: #0e101a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0284c7, #0ea5e9);
+  color: #fff;
+}
+
+/* Sections */
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #f1f5f9;
+  text-align: center;
+}
+
+.about-section, .contact-section {
+  padding: 4rem 0;
+  background-color: #0a0d16;
+  border-top: 1px solid #1f2937;
+}
+
+.about-section p, .contact-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+/* Product grid */
+.products-section {
+  padding: 4rem 0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Checkout container */
+.checkout-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.checkout-btn {
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+}
+
+.product-card {
+  background-color: #161e2e;
+  border: 1px solid #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-icon {
+  width: 48px;
+  height: 48px;
+  fill: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.product-price {
+  color: #f97316;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.product-colors {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn-add {
+  background-color: #38bdf8;
+  color: #0e101a;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-add:hover {
+  background-color: #0ea5e9;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  padding: 2rem 0;
+  background-color: #0a0d16;
+  border-top: 1px solid #1f2937;
+  text-align: center;
+}
+
+.footer p {
+  color: #475569;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "sku": "RV-001",
+    "name": "Square Gray",
+    "price": 130.87,
+    "colors": [
+      "Gray"
+    ],
+    "description": "Stylish square frame with gray color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 2,
+    "sku": "RV-002",
+    "name": "Rectangle Black",
+    "price": 170.53,
+    "colors": [
+      "Black"
+    ],
+    "description": "Stylish rectangle frame with black color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 3,
+    "sku": "RV-003",
+    "name": "Aviator Yellow",
+    "price": 135.59,
+    "colors": [
+      "Yellow"
+    ],
+    "description": "Stylish aviator frame with yellow color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 4,
+    "sku": "RV-004",
+    "name": "Wayfarer Black",
+    "price": 181.35,
+    "colors": [
+      "Black"
+    ],
+    "description": "Stylish wayfarer frame with black color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 5,
+    "sku": "RV-005",
+    "name": "Cat Eye Tortoise",
+    "price": 167.79,
+    "colors": [
+      "Tortoise"
+    ],
+    "description": "Stylish cat eye frame with tortoise color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 6,
+    "sku": "RV-006",
+    "name": "Aviator Gray",
+    "price": 144.29,
+    "colors": [
+      "Gray"
+    ],
+    "description": "Stylish aviator frame with gray color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 7,
+    "sku": "RV-007",
+    "name": "Browline Green",
+    "price": 123.27,
+    "colors": [
+      "Green"
+    ],
+    "description": "Stylish browline frame with green color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 8,
+    "sku": "RV-008",
+    "name": "Round Tortoise",
+    "price": 177.44,
+    "colors": [
+      "Tortoise"
+    ],
+    "description": "Stylish round frame with tortoise color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 9,
+    "sku": "RV-009",
+    "name": "Geometric Pink",
+    "price": 69.23,
+    "colors": [
+      "Pink"
+    ],
+    "description": "Stylish geometric frame with pink color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 10,
+    "sku": "RV-010",
+    "name": "Geometric Pink",
+    "price": 144.98,
+    "colors": [
+      "Pink"
+    ],
+    "description": "Stylish geometric frame with pink color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 11,
+    "sku": "RV-011",
+    "name": "Square Blue",
+    "price": 77.1,
+    "colors": [
+      "Blue"
+    ],
+    "description": "Stylish square frame with blue color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 12,
+    "sku": "RV-012",
+    "name": "Browline Gray",
+    "price": 55.76,
+    "colors": [
+      "Gray"
+    ],
+    "description": "Stylish browline frame with gray color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 13,
+    "sku": "RV-013",
+    "name": "Aviator Clear",
+    "price": 95.8,
+    "colors": [
+      "Clear"
+    ],
+    "description": "Stylish aviator frame with clear color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 14,
+    "sku": "RV-014",
+    "name": "Oval Gray",
+    "price": 58.67,
+    "colors": [
+      "Gray"
+    ],
+    "description": "Stylish oval frame with gray color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 15,
+    "sku": "RV-015",
+    "name": "Round Blue",
+    "price": 131.6,
+    "colors": [
+      "Blue"
+    ],
+    "description": "Stylish round frame with blue color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 16,
+    "sku": "RV-016",
+    "name": "Cat Eye Purple",
+    "price": 100.47,
+    "colors": [
+      "Purple"
+    ],
+    "description": "Stylish cat eye frame with purple color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 17,
+    "sku": "RV-017",
+    "name": "Rectangle Red",
+    "price": 162.26,
+    "colors": [
+      "Red"
+    ],
+    "description": "Stylish rectangle frame with red color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 18,
+    "sku": "RV-018",
+    "name": "Wayfarer Clear",
+    "price": 68.41,
+    "colors": [
+      "Clear"
+    ],
+    "description": "Stylish wayfarer frame with clear color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 19,
+    "sku": "RV-019",
+    "name": "Geometric Pink",
+    "price": 84.69,
+    "colors": [
+      "Pink"
+    ],
+    "description": "Stylish geometric frame with pink color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 20,
+    "sku": "RV-020",
+    "name": "Rectangle Black",
+    "price": 74.04,
+    "colors": [
+      "Black"
+    ],
+    "description": "Stylish rectangle frame with black color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 21,
+    "sku": "RV-021",
+    "name": "Wayfarer Blue",
+    "price": 89.98,
+    "colors": [
+      "Blue"
+    ],
+    "description": "Stylish wayfarer frame with blue color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 22,
+    "sku": "RV-022",
+    "name": "Square Pink",
+    "price": 198.23,
+    "colors": [
+      "Pink"
+    ],
+    "description": "Stylish square frame with pink color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 23,
+    "sku": "RV-023",
+    "name": "Cat Eye Green",
+    "price": 158.02,
+    "colors": [
+      "Green"
+    ],
+    "description": "Stylish cat eye frame with green color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 24,
+    "sku": "RV-024",
+    "name": "Round Pink",
+    "price": 191.1,
+    "colors": [
+      "Pink"
+    ],
+    "description": "Stylish round frame with pink color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 25,
+    "sku": "RV-025",
+    "name": "Wayfarer Blue",
+    "price": 150.96,
+    "colors": [
+      "Blue"
+    ],
+    "description": "Stylish wayfarer frame with blue color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 26,
+    "sku": "RV-026",
+    "name": "Geometric Clear",
+    "price": 143.48,
+    "colors": [
+      "Clear"
+    ],
+    "description": "Stylish geometric frame with clear color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 27,
+    "sku": "RV-027",
+    "name": "Wayfarer Yellow",
+    "price": 141.07,
+    "colors": [
+      "Yellow"
+    ],
+    "description": "Stylish wayfarer frame with yellow color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 28,
+    "sku": "RV-028",
+    "name": "Wayfarer Clear",
+    "price": 181.36,
+    "colors": [
+      "Clear"
+    ],
+    "description": "Stylish wayfarer frame with clear color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 29,
+    "sku": "RV-029",
+    "name": "Oval Red",
+    "price": 150.18,
+    "colors": [
+      "Red"
+    ],
+    "description": "Stylish oval frame with red color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 30,
+    "sku": "RV-030",
+    "name": "Geometric Gray",
+    "price": 175.58,
+    "colors": [
+      "Gray"
+    ],
+    "description": "Stylish geometric frame with gray color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 31,
+    "sku": "RV-031",
+    "name": "Cat Eye Red",
+    "price": 184.7,
+    "colors": [
+      "Red"
+    ],
+    "description": "Stylish cat eye frame with red color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 32,
+    "sku": "RV-032",
+    "name": "Round Red",
+    "price": 181.34,
+    "colors": [
+      "Red"
+    ],
+    "description": "Stylish round frame with red color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 33,
+    "sku": "RV-033",
+    "name": "Oversized Tortoise",
+    "price": 170.01,
+    "colors": [
+      "Tortoise"
+    ],
+    "description": "Stylish oversized frame with tortoise color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 34,
+    "sku": "RV-034",
+    "name": "Oversized Blue",
+    "price": 159.78,
+    "colors": [
+      "Blue"
+    ],
+    "description": "Stylish oversized frame with blue color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  },
+  {
+    "id": 35,
+    "sku": "RV-035",
+    "name": "Rectangle Purple",
+    "price": 116.73,
+    "colors": [
+      "Purple"
+    ],
+    "description": "Stylish rectangle frame with purple color and premium blue-light filtering lenses. Perfect for both work and leisure.",
+    "image": "",
+    "category": "Blue Light Glasses"
+  }
+]
