@@ -93,7 +93,13 @@ a:hover {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(160deg, #0a192f 0%, #0d1b2a 100%);
+  /* The hero section blends a dark blue gradient with a soft radial
+     golden glow to hint at premium metallic surfaces. The radial
+     gradient sits on top and originates from the upper right, fading
+     into transparency. */
+  background:
+    radial-gradient(circle at 80% 10%, rgba(212,175,55,0.25), rgba(10,25,47,0) 60%),
+    linear-gradient(160deg, #0a192f 0%, #0d1b2a 100%);
   padding: 6rem 0;
   text-align: center;
 }
@@ -190,19 +196,26 @@ a:hover {
 }
 
 .product-card {
-  background-color: #12263a;
+  /* Product cards now use a subtle two‑tone gradient to evoke the sheen of
+     brushed metal. A darker base is overlaid with a translucent golden
+     highlight, giving depth and sophistication reminiscent of high‑end
+     hardware finishes. */
+  background: linear-gradient(145deg, #12263a 0%, #0d1b2a 70%), radial-gradient(circle at top right, rgba(212,175,55,0.10), rgba(10,25,47,0));
   border: 1px solid #1b3b5f;
   border-radius: 0.5rem;
-  padding: 1.25rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
 }
 
 .product-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+  /* On hover the card brightens slightly, revealing more of the golden
+     radial highlight. */
+  background: linear-gradient(145deg, #1a2e46 0%, #12263a 70%), radial-gradient(circle at top right, rgba(212,175,55,0.20), rgba(10,25,47,0));
 }
 
 .product-icon {
@@ -255,12 +268,26 @@ a:hover {
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 3rem;
+  /* Provide a subtle panel behind the product information to set it apart
+     from the dark background. The two gradients echo the card motif. */
+  background:
+    linear-gradient(145deg, #12263a 0%, #0d1b2a 70%),
+    radial-gradient(circle at 80% 20%, rgba(212,175,55,0.1), rgba(10,25,47,0) 60%);
+  border: 1px solid #1b3b5f;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
 }
 
 .product-image-container {
   flex: 1;
   min-width: 300px;
   text-align: center;
+  /* Add a subtle backdrop for the product image to give it a polished
+     presentation similar to luxury product photography. */
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05), rgba(255,255,255,0) 70%);
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 .product-image-container img {
@@ -271,6 +298,11 @@ a:hover {
 .product-info {
   flex: 1;
   min-width: 300px;
+  /* Create separation for the information side with a semi-transparent
+     overlay that echoes the card design. */
+  background: linear-gradient(145deg, rgba(18, 38, 58, 0.7), rgba(13, 27, 42, 0.7));
+  border-radius: 0.5rem;
+  padding: 1.5rem;
 }
 
 .product-info h1 {
@@ -313,10 +345,10 @@ a:hover {
 
 .product-variants select,
 .product-variants input {
-  background-color: #12263a;
-  border: 1px solid #1b3b5f;
+  background-color: #1c314a;
+  border: 1px solid #27466b;
   color: #e5e7eb;
-  padding: 0.5rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
 }
 
